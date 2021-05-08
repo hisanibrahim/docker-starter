@@ -26,3 +26,6 @@
 
 `docker system prune`
 
+# Build
+
+`docker build .`
