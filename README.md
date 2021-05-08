@@ -29,3 +29,10 @@
 # Build
 
 `docker build .`
+
+`docker build . -t hisanibrahim/redis:latest`
+
+# Manual Image Generation
+
+`docker run -it alpine sh`
+`docker commit -c 'CMD ["redis-server"]' <ID>`
