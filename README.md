@@ -36,3 +36,7 @@
 
 `docker run -it alpine sh`
 `docker commit -c 'CMD ["redis-server"]' <ID>`
+
+# PORT forwarding
+
+`docker run -p 8080:8080 hisanibrahim/simplewebapp:latest`
