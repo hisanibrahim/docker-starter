@@ -32,6 +32,12 @@
 
 `docker build . -t hisanibrahim/redis:latest`
 
+# Push
+
+`docker login`
+
+`docker push hisanibrahim/redis`
+
 # Manual Image Generation
 
 `docker run -it alpine sh`
